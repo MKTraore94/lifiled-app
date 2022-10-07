@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@font-face {
+    font-family: 'Century';
+    src: url(../../../assets/font/GOTHICB0.TTF);
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(../../../assets/font/ArialTh.ttf);
+}
 
 
 
@@ -8,25 +16,27 @@
     margin: 0 2rem;
     padding-left: 12px;
     font-size: 20px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Century', sans-serif;
     
 }
 
 .active{
     font-weight: bolder;
     text-decoration: underline;
-    color: #1ea4d9 !important;
-    font-size: 30px;
-    font-family: 'Merriweather', serif;
+    color: #f2cb05 !important;
+    font-size: 25px;
+    font-family: 'Century', sans-serif;
 }
 
 nav{
     height: 132px;
     border-bottom: 4px solid #1ea4d9;
+    background-color: #091e3e !important ;
+    // background-color: #f2cb05 !important ;
     .navbar-toggler{
-        background-color: white ;
+        background-color: #091e3e;
     }
-.logolifi{
+.logo{
     height: 128px !important;
 }
 }

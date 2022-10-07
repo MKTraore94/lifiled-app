@@ -1,20 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@font-face {
+    font-family: 'Century';
+    src: url(../../assets/font/GOTHICB0.TTF);
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(../../assets/font/ArialTh.ttf);
+}
 
 
 
 
 
-h1{
-    font-family: 'Merriweather', serif;
+h1,h5{
+    font-family: 'Century', sans-serif;
     color:#1ea4d9;
 }
 
 p{
-    font-family: 'Merriweather', serif;
+    font-family: 'Arial', sans-serif;
     text-align: justify;
+    font-size: 18px;
 }
 
 .carousel-control-prev,
 .carousel-control-next{
     color:#1ea4d9;
+}
+
+.jaune{
+    color:#f2cb05;
 }
