@@ -11,11 +11,20 @@
 
 
 
+h1{
+    font-family: 'Century', sans-serif;
+    // color:#1ea4d9;//
+    color: #fff;
+}
+ h1:hover{
+    color:#f2cb05;
+ }
 
-h1,h5{
+h5{
     font-family: 'Century', sans-serif;
     color:#1ea4d9;
 }
+
 
 p{
     font-family: 'Arial', sans-serif;
@@ -23,6 +32,6 @@ p{
     font-size: 18px;
 }
 
-.jaune{
-    color:#f2cb05;
-}
+// .jaune{
+//     color:#f2cb05;
+// }
